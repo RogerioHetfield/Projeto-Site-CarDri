@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarDri Personalizados</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon">
+</head>
+
+<body>
+  <header id="topo">
+    <div class="logo-container">
+      <img src="img/card.PNG" alt="logo-cardri-personalizados" class="logo" />
+    </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="apresentacao">
+      <h2>Produtos Personalizados com Amor</h2>
+      <p>Canecas e azulejos criativos, feitos sob medida para você presentear quem ama!</p>
+
+      <div class="galeria">
+        <img src="img/foto1.PNG" alt="" class="fotos" onclick="abrirImagem(this)">
+        <img src="img/foto2.PNG" alt="" class="fotos" onclick="abrirImagem(this)">
+        <img src="img/foto3.PNG" alt="" class="fotos" onclick="abrirImagem(this)">
+        <img src="img/foto4.PNG" alt="" class="fotos" onclick="abrirImagem(this)">
+      </div>
+
+      <div id="lightbox" class="lightbox" onclick="fecharImagem()">
+        <img id="imagemGrande" src="" alt="">
+      </div>
+
+      <a class="botao" href="produtos.html">Ver Produtos</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CarDri Personalizados. Site Criado Por DevXP. &copy;</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

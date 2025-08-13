@@ -169,3 +169,13 @@ footer {
   width: 200px;
   text-align: center;
 }
+
+.caneca a {
+  color: rgb(238, 0, 255);
+  text-decoration: none;
+}
+
+.azulejo a {
+  color: rgb(238, 0, 255);
+  text-decoration: none;
+}
